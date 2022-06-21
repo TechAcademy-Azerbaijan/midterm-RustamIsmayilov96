@@ -14,9 +14,9 @@ prompt.get('input', function (err, result) {
     var b = parseInt(numbers[1]); // İkinci daxil olunmuş ədədi alırıq. Nümunə - 5
     let sum = 0
     let res = 0
-    while(a<=b){
+    for(let i = a; a<=b;res = i++){
         if(res%2!=0){
     sum = sum + res
-        }  res=a++
+        }  
     }console.log(sum);
 });
