@@ -16,7 +16,7 @@ prompt.get('input', function (err, result) {
     let res = 0
     for(let i = a; a<=b;res = i++){
         if(res%2!=0){
-    sum = sum + res
+    sum = sum + res;
         }  
     }console.log(sum);
 });
